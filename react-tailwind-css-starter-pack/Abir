@@ -1,1 +1,95 @@
+Navbar
 
+import React, { useState } from 'react';
+
+const Navbar = () => {
+  return (
+    <nav class="block w-full max-w-screen-lg px-4 py-2 mx-auto bg-white shadow-md rounded-md lg:px-8 lg:py-3 mt-10">
+  <div class="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
+    <a href="#" class="py-1.5 text-base text-slate-800 font-semibold">
+      Enterprise Expense Management System
+    </a> 
+    
+  </div>
+  
+  
+</nav>
+  );
+};
+
+export default Navbar;
+
+Table
+import React from 'react'
+
+const Table = () => {
+  return (
+    <>
+    <h1 className='mt-8 mb-8 text-center text-2xl font-semibold'>Manager Dashboard</h1>
+    <div
+  class="w-5/6 mt-6 mx-auto flex flex-col overflow-scroll text-gray-700 bg-white shadow-md rounded-xl bg-clip-border">
+  <table class="w-full text-left table-auto min-w-max">
+    <thead>
+      <tr>
+        <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
+          <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+            Name
+          </p>
+        </th>
+        <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
+          <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+            Type of Expense
+          </p>
+        </th>
+        <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
+          <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+            Amount
+          </p>
+        </th>
+        <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
+          <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+            Document
+          </p>
+        </th>
+        <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
+          <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">Action</p>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="p-4 border-b border-blue-gray-50">
+          <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+            John Michael
+          </p>
+        </td>
+        <td class="p-4 border-b border-blue-gray-50">
+          <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+            Travel
+          </p>
+        </td>
+        <td class="p-4 border-b border-blue-gray-50">
+          <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+            10000
+          </p>
+        </td>
+        <td class="p-4 border-b border-blue-gray-50">
+          <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+            pic.jpg
+          </p>
+        </td>
+        <td class="p-4 border-b border-blue-gray-50">
+          <a href="#" class="block font-sans text-sm antialiased font-medium leading-normal text-blue-gray-900">
+            Edit
+          </a>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+</>
+  )
+}
+
+export default Table
