@@ -1,3 +1,5 @@
+Manager Dashboard --
+
 Navbar
 
 import React, { useState } from 'react';
